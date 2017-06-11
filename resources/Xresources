@@ -1,0 +1,105 @@
+!! 90.8ppi
+!! Xft.dpi:96x88
+Xft.antialias:	1
+!!URxvt.title:	ap''s urxvt
+URxvt.background:              #002B36
+URxvt.foreground:              #839496
+URxvt.colorBD:green4
+URxvt.colorUL:cyan
+URxvt.fading:10
+URxvt.fadeColor:gray60
+!! Black
+URxvt.color0:                  #000000
+URxvt.color8:                  #EF2929
+!! Red
+URxvt.color1:                  #CC0000
+URxvt.color9:                  #555753
+!! Green
+URxvt.color2:                  #4E9A06
+URxvt.color10:                 #8AE234
+!! Yellow
+URxvt.color3:                  #C4A000
+URxvt.color11:                 #FCE94F
+!! Blue
+URxvt.color4:                  #3465A4
+URxvt.color12:                 #729FCF
+!! Mangenta
+URxvt.color5:                  #75507B
+URxvt.color13:                 #AD7FA8
+!! Cyan
+URxvt.color6:                  #06989A
+URxvt.color14:                 #34E2E2
+!! White
+URxvt.color7:                  #D3D7CF
+URxvt.color15:                 #EEEEEC
+
+URxvt.geometry: 80x50+500+0
+URxvt.cursorBlink:True
+URxvt.cursorUnderline:False
+!! URxvt.pointerColor:yellow
+URxvt.cursorColor:red
+URxvt.pointerBlank:True
+URxvt.pointerColorBackground:  #8AE234
+URxvt.pointerColorForeground:  #34E2E2
+
+URxvt.font:xft:Inconsolata-14,xft:DejaVu Sans Mono-12:antialias=True,xft:WenQuanYi Micro Hei-12
+URxvt.boldFont:xft:Inconsolata-14:Bold,xft:DejaVu Sans Mono-12:Bold:antialias=True,xft:WenQuanYi Micro Hei-12:Bold
+
+URxvt.preeditType:Root
+URxvt.saveLines:10000
+
+!! link action
+URxvt.perl-ext-common:default,matcher
+!!URxvt.perl-ext-common:matcher
+URxvt.matcher.button:1
+URxvt.urlLauncher:firefox
+
+!!URxvt.mouseWheelScrollPage:True
+URxvt.scrollBar:True
+URxvt.scrollstyle:plain
+URxvt.scrollColor:#003838
+URxvt.thickness:5
+URxvt.scrollBar_right:True
+URxvt.scrollBar_floating:True
+URxvt.scrollTtyOutput:False
+URxvt.scrollWithBuffer:True
+URxvt.scrollTtyKeypress:True
+
+URxvt.iso14755:False
+URxvt.iso14755_52:False
+
+
+
+*.background:              #002B36
+*.foreground:              #839496
+*.colorBD:green4
+*.colorUL:cyan
+*.fading:10
+*.fadeColor:gray60
+!! Black
+*.color0:                  #000000
+*.color8:                  #EF2929
+!! Red
+*.color1:                  #CC0000
+*.color9:                  #555753
+!! Green
+*.color2:                  #4E9A06
+*.color10:                 #8AE234
+!! Yellow
+*.color3:                  #C4A000
+*.color11:                 #FCE94F
+!! Blue
+*.color4:                  #3465A4
+*.color12:                 #729FCF
+!! Mangenta
+*.color5:                  #75507B
+*.color13:                 #AD7FA8
+!! Cyan
+*.color6:                  #06989A
+*.color14:                 #34E2E2
+!! White
+*.color7:                  #D3D7CF
+*.color15:                 #EEEEEC
+
+*.faceName:xft:Inconsolata-14,xft:DejaVu Sans Mono-12:antialias=True,xft:WenQuanYi Micro Hei-12
+*.boldFont:xft:Inconsolata-14:Bold,xft:DejaVu Sans Mono-12:Bold:antialias=True,xft:WenQuanYi Micro Hei-12:Bold
